@@ -2,9 +2,10 @@ import axios from "axios";
 
 const axiosInstance = axios.create({
   // deploy on cyclic
-  baseURL: "https://busy-gray-ox-shoe.cyclic.app/",
+  // baseURL: "https://busy-gray-ox-shoe.cyclic.app/",
   // deploy on render
   // baseURL: "https://amazon-backend-fj8v.onrender.com"
+  baseURL: "https://amazon-backend-b9ni.onrender.com",
   // baseURL: "http://localhost:7088/",
 });
 
